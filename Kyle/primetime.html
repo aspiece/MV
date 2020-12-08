@@ -1,0 +1,35 @@
+
+<DOCTYPE! HTML>
+    <html>
+    <head>
+        <script src="primetime.js"></script><!--Note that this is how you link to the javascript file where you code is.-->           
+    </head>
+    <body>
+    <h3> Prime Time assignment </h3>
+	<br>
+	<table>
+		<tr>
+			<td id = 'tdLowerRange' class='bigcell' > 1 </td>
+			<td id = 'tdUpperRange' class='bigcell' > 50 </td>
+			<td> </td>
+		</tr>
+		
+		<tr>
+			<td>
+				<button type="button" onclick='enterLowerRange()'>Enter lower end of range</button> <!-- This is where the user will enter the starting number-->
+			</td>
+			<td>
+				<button type="button" onclick='enterUpperRange()'>Enter upper end of range</button><!-- This is where the user will enter the ending number-->
+			</td>
+			<td>
+				<button type="button" onclick='generatePrimes()'>List the primes in the range</button> <!-- This is the button you hit to caldulate the primes-->
+			</td>
+		</tr>
+	</table>
+
+	<br>
+	<br>
+	
+	<div id='divResults'> </div>
+    </body>
+    </html>
